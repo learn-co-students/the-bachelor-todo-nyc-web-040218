@@ -1,4 +1,6 @@
-require 'pry'
+#structure = 
+# { "season_number" => 
+#   [ {contestant_info} ] }
 
 def get_first_name_of_season_winner(data, season)
   winner = ""
@@ -53,10 +55,6 @@ def get_occupation(data, hometown)
     end
   end
 end
-
-#structure = 
-# { "season_number" => 
-#   [ {contestant_info} ] }
 
 def get_average_age_for_season(data, season)
   average = 0.0
